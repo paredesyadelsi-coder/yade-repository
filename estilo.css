@@ -1,0 +1,93 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    /* Fondo crema suave que recuerda a la vainilla */
+    background-color: #ffd1e0; 
+    /* Texto en color café chocolate para mejor lectura */
+    color: #270c0c; 
+}
+
+header {
+    /* Rosa fresa para el encabezado */
+    background-color: hsl(327, 67%, 62%); 
+    color: #380521;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.navbar {
+    /* Un tono de rosa un poco más fuerte para resaltar el menú */
+    background-color: #4e1d25; 
+    margin-top: 15px;
+    padding: 12px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navbar a {
+    color: hsl(0, 100%, 92%);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    /* Al pasar el mouse, cambia a un color crema */
+    color: #FFE4E1; 
+    text-shadow: 0px 0px 5px rgb(146, 105, 124);
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    /* Fondo blanco puro para que resalte el contenido */
+    background: #ffefef; 
+    padding: 50px;
+    border-radius: 8px;
+    /* Sombra suave en color rosa muy tenue */
+    box-shadow: 0 4px 15px rgba(255, 99, 128, 0.2); 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-image img {
+    width: 100%;
+    max-width: 360px;
+    border-radius: 5px;
+    display: block;
+}
+
+.card-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.feature-list {
+    padding-left: 20px;
+}
+
+.feature-list li {
+    margin-bottom: 8px;
+    /* Los puntos de la lista en color café chocolate */
+    color: #ca9f9f; 
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 0.9rem;
+    /* Texto del pie de página en rosa oscuro */
+    color: #000000; 
+}
